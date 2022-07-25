@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 6;
+}
+
+#titulo{
+    background-color: black;
+    
+    border-radius: 50px;
+    display: block;
+    height: 5em;
+    width: 12em;
+    
+}
+
+.logoimg{
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+header .logo{
+    color:rgb(230, 0, 210);
+    
+
+    display: block;
+    width: 10em;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: left;
+    
+
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 2em;
+    
+    letter-spacing: 2px;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+
+}
+
+.logo:focus, .logo:hover{
+    color:rgb(252, 0, 231);
+    
+}
+
+#titulo:focus, #titulo:hover{
+    border: 2px solid rgb(218, 11, 218);
+    box-shadow: 2px 2px 20px 10px rgb(218, 11, 218);
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+header ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 6px 16px;
+    color: rgb(231, 0, 220);
+}
+
+header ul li a:hover{
+    background-color: rgb(241, 2, 210) ;
+    color:rgb(71, 14, 67);
+    border-radius: 20px;
+}
+
+
+.dropbtn{
+    background-color:rgb(0, 0, 0);
+    color:rgb(231, 0, 220);
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border:none;
+    border-radius: 20px;
+    
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.dropbtn:hover, .dropbtn:focus{
+    background-color: rgb(241, 2, 210);
+    color: black;
+}
+
+.dropdown{
+    position:relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    justify-content: center;
+    
+    background-color: rgb(0, 0, 0);
+    min-width:  100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: "Poppins", sans-serif;
+}
+
+.dropdown-content a{
+    color: rgb(231, 0, 220);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    list-style: initial;
+}
+
+.dropdown-content a:hover{ background-color:rgb(238, 78, 211); color: rgb(0, 0, 0);}
+.dropdown:hover .dropdown-content { display:block;}
+
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, black, rgb(31, 4, 31));
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    color:#fff;
+    overflow-x: hidden;
+    
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+}
+
+#imags{
+    display: block;
+    position: absolute;
+    width: 4000px;
+    height: 3000px;
+    background-image: url("https://www.pikpng.com/pngl/b/135-1358936_stars-png-transparent-images-stars-with-no-background.png");
+    background-repeat: repeat;
+   
+    z-index: 0;
+}
+
+.box{
+    position:relative;
+    
+    left: 1em;
+    top: 8em;
+    width: 400px;
+    height: 500px;
+    background: rgb(13, 5, 17);
+    margin: 40px;
+    box-shadow: 30px 15px rgb(0, 0, 0);
+    z-index: 3;
+}
+
+.box:hover, .box:focus{
+    box-shadow: 1px 2px 10px 10px rgb(230, 0, 210);
+}
+
+/*.prof{
+    background-image:linear-gradient(to top right, rgb(37, 20, 30), rgb(116, 23, 116));
+    position: relative;
+
+    width: 180px;
+    height: 200px;
+    margin-left: 2em;
+    top: 2em;
+    padding: 2em;
+} */
+
+.contents{
+    position:relative;
+    left: 1em;
+    top: 8em;
+    width: 800px;
+    height: 500px;
+    background: rgb(13, 5, 17);
+    margin: 40px;
+    box-shadow: 30px 15px rgb(0, 0, 0);
+    z-index: 3;
+}
+.contents:hover, .contents:focus{
+    border: 2px solid rgb(230, 0, 210);
+    box-shadow: 1px 2px 10px 10px rgb(230, 0, 210);
+}
+
+.ass{
+    position:relative;
+    left: 1em;
+    top: 8em;
+    width: 400px;
+    height: 500px;
+    background: rgb(13, 5, 17);
+    margin: 40px;
+    box-shadow: 30px 15px rgb(0, 0, 0);
+    z-index: 3;
+}
+.ass:hover, .ass:focus{
+    border: 2px solid rgb(230, 0, 210);
+    box-shadow: 1px 2px 10px 10px rgb(230, 0, 210);
+}
+
+.footer-basic{
+    position: relative;
+    display: block;
+    
+    justify-content: center;
+
+    width: 120em;
+    height: 12em;
+    margin: 0px;
+    top: 6.3em;
+    left: 0em;
+
+    background-color: rgb(13, 5, 17);
+    z-index: 3;
+}
+
+.footer-basic ul {
+    padding: 60px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+    color:rgb(230, 0, 210);
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+
+  .footer-basic ul a:hover {
+    opacity:1;
+    color:rgb(253, 51, 202);
+  }
+  
+
+  
+
+  
+  .footer-basic .copyright {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    text-align:center;
+    font-size:13px;
+    color: rgb(230, 0, 210);
+    margin-bottom: 0px;
+    bottom: 20px;
+    left: 70em;
+  }
+

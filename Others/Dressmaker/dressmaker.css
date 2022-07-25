@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(241, 241, 241);
+    overflow-x: hidden;
+}
+
+.logoimg{
+    display: block;
+    position: relative;
+    max-height: 100px;
+    max-width: 100px;
+    top: 0.5em;
+    left: 7em;
+}
+
+#boxhead{
+    float:left;
+    position: absolute;
+    width: 99em;
+    height: 10em;
+    top: 0em;
+    left: 6em;
+    z-index: 1;
+    margin-bottom: 2em;
+    
+
+    background-color:rgb(20, 19, 19);
+    box-shadow: 1px 2px 20px rgb(201, 195, 195);
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 6;
+}
+
+#titulo{
+    margin-left: 2em;
+    position: relative;
+    right: 25em;
+   
+    display: block;
+    height: 5em;
+    width: 12em;
+}
+    
+
+header .logo{
+    color:rgb(252, 243, 243);
+    
+
+    display: block;
+    width: 10em;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: left;
+    
+
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 2em;
+    
+    letter-spacing: 2px;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+
+}
+
+.logo:focus, .logo:hover{
+    color:rgb(235, 69, 105);
+    
+}
+header ul{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+    right: 10em;
+}
+
+header ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 6px 16px;
+    color: rgb(247, 235, 235);
+}
+
+header ul li a:hover{
+    
+    color:rgb(250, 243, 243);
+    
+}
+
+
+.dropbtn{
+    background-color:rgb(241, 241, 241);
+    color:rgb(0, 0, 0);
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border:none;
+    border-radius: 20px;
+    right: 8em;
+    position: relative;
+    
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.dropbtn:hover, .dropbtn:focus{
+    background-color: rgb(241, 241, 241);
+    color: black;
+    border-radius: 0px;
+}
+
+.dropdown{
+    position:relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    justify-content: center;
+    margin-left: 1em;
+    right: 9.65em;
+    
+    background-color: rgb(241, 241, 241);
+    min-width: 142px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: "Poppins", sans-serif;
+}
+
+.dropdown-content a{
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    list-style: initial;
+}
+
+.dropdown-content a:hover{ background-color:rgb(241, 241, 241);; color: rgb(0, 0, 0);}
+.dropdown:hover .dropdown-content { display:block;}
+
+.oscontent{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#socialbox{
+    float: left;
+    position: relative;
+    width: 20em;
+    height: 25em;
+    top: 13em;
+    left: 6em;
+    z-index: 1;
+
+    background-color:rgb(252, 245, 245);
+    box-shadow: 2px 2px 25px rgb(201, 195, 195);
+}
+
+.socials{
+    
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
+
+
+}
+.socials ul li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+   
+}
+.socials ul li a:hover{
+    
+    color:rgb(221, 27, 27);
+   
+   
+}
+
+.socials ul li{
+    list-style: none;
+    padding: 15px;
+}
+
+#slides{
+    float:left;
+    position: relative;
+    width: 75em;
+    height: 40em;
+    top: 13em;
+    left: 10em;
+    z-index: 1;
+    
+
+    background-color:rgb(252, 245, 245);
+    box-shadow: 1px 2px 20px rgb(201, 195, 195);
+}
+.boxes{
+    padding: 10px;
+    margin-top: 1em;
+     justify-content: center;
+     text-align: center;
+     color: rgb(243, 240, 240);
+    max-height: 70em;
+    max-width: 60em;
+    width: auto;
+    height: auto;
+}
+.seemr{
+    background-color:rgb(243, 240, 240);
+    color:rgb(12, 10, 10);
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border:none;
+    border-radius: 20px;
+    top: 20em;
+    left: 4.5em;
+    position: absolute;
+    
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.seemr:hover, .seemr:focus{
+    background-color:rgb(253, 249, 249);
+    color:rgb(0, 0, 0);
+}
+.slider{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+.slideshow-container {
+    max-width: 28em;
+    position: relative;
+    margin: 10px 15px;
+    padding: 20px;
+    
+    top: 0em;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+
+  }
+  .mySlides img{
+      padding: 20px;
+      
+       
+      max-height: 60em;
+      max-width: 50em;
+      width: auto;
+      height: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 12em;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0px;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev{
+      left:0px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(255, 248, 248, 0.8);
+    color:rgb(5, 4, 4);
+  }
+  
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  #produtos{
+      padding:10px;
+      color: rgb(247, 235, 235);
+    float: left;
+    position: absolute;
+    width: 22em;
+    height: 32em;
+    top: 5em;
+    left: 2em;
+    z-index: 0;
+
+    background-color:rgb(22, 20, 20);
+    border-radius: 10px;
+    
+  }
+  #produtos1{
+    padding:10px;
+    color: rgb(247, 235, 235);
+    float: left;
+    position: absolute;
+    width: 22em;
+    height: 32em;
+    top: 5em;
+    left: 26em;
+    z-index: 0;
+
+    background-color:rgb(22, 20, 20);
+    border-radius: 10px;
+    
+  }
+  #produtos2{
+    padding:10px;
+    color: rgb(247, 235, 235);
+    float: left;
+    position: absolute;
+    width: 22em;
+    height: 32em;
+    top: 5em;
+    left: 50em;
+    z-index: 0;
+
+    background-color:rgb(22, 20, 20);
+    border-radius: 10px;
+    
+  }
+
+#contacts{
+    float: left;
+    position: absolute;
+    width: 20em;
+    height: 13em;
+    top: 40em;
+    left: 6em;
+    z-index: 1;
+
+    background-color:rgb(31, 29, 29);
+    box-shadow: 2px 2px 25px rgb(201, 195, 195);
+}
+
+.infcontact{
+    color:rgb(250, 239, 239);
+    justify-content: center;
+    text-align: left;
+
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+.infcontact p{
+    margin-left: 5px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 0.85em;
+}
+
+#whos{
+    float:left;
+    position: absolute;
+    width: 99em;
+    height: 16em;
+    top: 55em;
+    left: 6em;
+    z-index: 1;
+    
+
+    background-color:rgb(252, 245, 245);
+    box-shadow: 1px 2px 20px rgb(201, 195, 195);
+}
+
+.we{
+    color:rgb(0, 0, 0);
+    justify-content: center;
+    text-align: left;
+}
+
+.fot{
+    display:block;
+    float: left;
+    padding:10px;
+    
+}
+.infme{
+    display:block;
+    float:left;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+  
+.copyright {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    text-align:center;
+    font-size:13px;
+    color: rgb(61, 59, 59);
+    margin-bottom: 20px;
+    padding: 20px;
+    top: 3em;
+    left: 58em;
+  }

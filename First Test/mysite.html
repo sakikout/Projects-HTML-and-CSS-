@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <!-- cabeça da cabeça-->
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+        <meta http-equiv="refresh" content="30">
+        <meta name="author" content="Bela Dalfior">
+        <meta name="description" content="testing">
+        <meta name="keywords" content="testing, antics">
+        
+        <!-- "title" se refere ao título da aba!-->
+        <title> The bunker </title>
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    </head>
+    <style src="style.css"></style>
+<body>
+        <header>
+
+            <h1> Vault 15</h1>
+            
+        </header>
+        
+        <!-- hr separa as seções por linhas :)-->
+        <!-- "hx" são títulos e eles são hierarquizados!-->
+        <nav>
+            <div id="div4">
+                <div class="collapsenavbar" id="supportedcontent">
+                    <ul class="navbarnav">
+                        <button class="linkbtn">Home </button>
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">The Holy Trinity</button>
+                                <div id="myDropdwon" class="dropdown-content">
+                                    <a href="https://fallout.fandom.com/wiki/Fallout:_New_Vegas" target="_blank">Fallout</a>
+                                    <a href="https://elderscrolls.fandom.com/wiki/Skyrim" target="_blank">Skyrim</a>
+                                    <a href="https://dota2.fandom.com/wiki/Dota_2_Wiki" target="_blank">Dota 2</a>
+                                </div>
+                            
+                        </div>
+                    <ul>
+                        <form class="pesquisa">
+                            <input class="formcontrol" type="search" placeholder="Search" aria-label="Pesquisar">
+                            <button class="btnoutline" type="submit">Search</button>
+                        </form>
+                    </ul>
+                </ul>    
+                </div>
+            </div>
+        </nav>
+        <hr>
+    
+        <section>
+            <div id="div1">
+            <h1> Wellcome!</h1>
+            <article>
+                <figure>
+                        <img src="https://gifimage.net/wp-content/uploads/2018/04/pip-boy-gif-9.gif" alt="Vault Boy"/>
+                        <!-- Isso aqui aparece na parte de dentro da aba/site em si!-->
+                        <!-- "p" define um parágrafo-->
+                        <figcaption>I hope it's seen by you! :) </figcaption>
+                </figure>
+                <button class="spoiler" onclick="spoilerisclicked()">Spoiler!</button>
+            </article>
+            </div>
+            <hr>
+
+           
+            <div id="boxes">
+                <div id="div3">
+                    <section>
+                        <aside>
+                            <h3> Important dates</h3>
+                            <dl>
+                                <!-- this is the "description" list type-->
+                                <dt>The obvious one</dt>
+                                <dd><time datetime="07-10-2003 09:45:00">My Birthday?</time></dd>
+                                <dt>The sadest one</dt>
+                                <dd><time datetime="06-26-2018">My Granny's death.</time></dd>
+                                <dt>The random ones</dt>
+                                <dd> <ol>
+                                    <!-- this one has an order in its elements-->
+                                    <li><time> 07-15-2018</time></li>
+                                    <li><time> 03-12-2020</time></li>
+                                    <li><time> 01-13-2020</time></li>
+                                </ol></dd>
+                            </dl>
+                        </aside>
+                    </div>
+                        
+                    <div id="div5">
+                        <aside>
+                            <!-- gonna try to make a table now-->
+                            
+                            <table id="tabela">
+                                <caption><h3>Tiny info</h3></caption>
+                                <colgroup>
+                                <col span="3" style ="background-color: rgb(36, 70, 36);">
+                                <col>
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>Game</th>
+                                        <th>Type</th>
+                                        <th>First played</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> Dota 2</td>
+                                        <td> MOBA</td>
+                                        <td> 2012</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Skyrim</td>
+                                        <td>RPG</td>
+                                        <td>2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="cucas">Fallout New Vegas</td>
+                                        <td>RPG</td>
+                                        <td>2021</td>
+                                    </tr>
+                                </tbody>   
+                            <!-- colspan = columns, rowspan =-->
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3">Last update: 12/2021</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </aside>
+                    </div>
+                    <hr>
+            </div>
+            
+
+
+        <div id="div2">
+            <article>
+                <h2>What's it purpose after all?</h2>
+                    <p> I'm also trying to figure it  out! However, we could quote initially:</p>
+                    <!-- bellow, <li> is used to line up elements in a list format. <ul> is made for gathering these elements, perhaps.-->
+                <ul>
+                    <li> An attempt to understand how it works to have a job;</li>
+                    <li> A brand new range of possibilities to make fun of something;</li>
+                    <li> idk i'm just too <mark>nerd</mark> :p</li>
+                </ul>
+            </article>
+        </div>
+        </section>
+    
+        
+    
+    <section>
+        <div id="div2">
+            <article>
+                <h3> About me</h3>
+                    <p> In this paragraph, I want to speak a little about myself. For learning purposes, I will make a random <br> break <br> in this sentence to show to myself what's the function of the element "br" in my code. Furthermore, I might teach my code how should it break some words "correctly" with "wbr" element. Like, you should break "Fallout" as "Fal<wbr>lou<wbr>t" or whatever. You probably won't understand nothing of this if you are not me or open the soure of this page - I recommend!</p>
+                    <!-- $(name of entities) are some special symbols we can make in our keyboard (and might have some problems at formating) that we use to avoid encoding problems in the page exhibition-->
+                    <p> Now you can see I lied and I won't talk about myself here. &sung; </p>
+                    <p> But the way, if you want to support my art you can visit me on my <a id="linkmedia" href="https://www.instagram.com/dalfiarts/" target="_blank"> Instagram.</a></p>
+                    <a class="vaultdancing">
+                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c181d13f-f922-4bbd-ba4c-8cd8095f8688/deeesdh-c7938041-ef04-4f06-8249-bb1ed241fbcc.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MxODFkMTNmLWY5MjItNGJiZC1iYTRjLThjZDgwOTVmODY4OFwvZGVlZXNkaC1jNzkzODA0MS1lZjA0LTRmMDYtODI0OS1iYjFlZDI0MWZiY2MuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kvcaGYpKMVgsfsmcSzWBJZtie_tnv1I-VIZmi7YCR24" alt="Vault Boy Dancing"/>
+                    </a>
+                    <!-- the paragraph above is going to open a new window to my Instagaram due to "target _blank", you can also use "self or top" to open in the same window (depending on the code) or "parent" that will open it in the same frame/window that the link is settled-->
+                    <!-- that part bellow is really weird but i won't spend my time trying to understand this thing-->
+            </article>
+            <hr>
+            <article>
+                <h4> The Rambler</h4>
+                <pre>
+                Technically, with the "pre" element, where this paragraph is inserted, I can format a text the way I want without suffering interferences of my code editor.
+                I don't need to use "br" to create any break because I can just put some            random spaces        with my space key and it's going to be this way on the website as well.
+                </pre>
+                <p> Now, this is just an average paragraph, but I want to say that there's an element called "code" where I can add some code in this HTML document, like this one: <code>System.out.println("idkbro")</code>.</p>
+                <p> Is this session over? <b>No</b>! I just discovered I can use the element "i" to look a bit more smart while writing scientific shit, like <i>Cavia porcellus</i>. Cool, right? You also noticed the "b" element between the "no", right? :)</p>
+                <p> The fun fact about the paragraph above is that I wrote in bold and italic in HTML5 format. Technically, I could do the same with the "strong" and "em" elements, respectively.</p>
+                <p> Do you know that tiny numbers on top and under some letter or word? We can make them with the elements "sub" and "sup", like x<sup>2</sup> and CO<sub>2</sub>. :D</p>
+                <!-- Agora é pra falar de citações apropriadamente, com os elementos blockquote (bloco de referencia), q(citação) e o cite (origem?)!-->
+            </article>
+            <hr>
+            <article>
+                <h4> The Cult</h4>
+                    <p> Here, we are going to speak about one of my favorites works in literature. Actually, I'm just going to present it to you, the well-known Kafka's work, <i>"Metamorphosis"</i>.</p>
+                <blockquote cite="https://pt.wikipedia.org/wiki/A_Metamorfose">
+                    <p>
+                    A metamorfose, em um primeiro momento, é vista pelo protagonista apenas como sendo um imprevisto que o faz sair da rotina de caixeiro-viajante. Aliás, diante dela, ele se preocupa muito mais com a sua ausência no trabalho do que com esse drama incomum. A obra, portanto, faz uma crítica ao mundo capitalista, em que o ser humano é valorizado só quando é produtivo, não passando de um ser utilitário. Gregor Samsa perde seu papel social: Não sendo mais produtivo, o protagonista transforma-se em algo incômodo e descartável. Por outro lado, a metamorfose figura-se como uma libertação desse mundo de rotinas opressoras, do emprego do qual Gregor Samsa queria livrar-se. O inseto é, possivelmente, a metáfora do marginal, do artista, daquele que escapa das regras sociais impostas e, por isso, é rejeitado. Esse não pertencimento à engrenagem social provoca uma mudança interior no protagonista.
+                    </p>
+                </blockquote>
+                <p> With this WEIRDLY written in portuguese, we can conclude with another random quote written in portuguese by Nietzsche, a man who I also enjoy his works:
+                <q cite="https://pt.wikipedia.org/wiki/Friedrich_Nietzsche">
+                    <i>Temos a arte para não morrer da verdade.</i>
+                </q>
+                <!-- vou aproveitar e colocar sobre abreviação aqui também-->
+                <br>I really wish I could write like a mysterious cat. Only Edgar Allan Poe could get that feeling <abbr title="In My Opinion">IMO</abbr>.
+                </p>
+            </article>
+            <hr>
+            <article>
+                <h4> The Writer</h4>
+                    <p> I won't explain what I'm going to write here in my code. I guess you already noticed that I'm just rambling to test the HTML elements and functions. Anyway, I've had to write a text about Indigenous women for my EC club, and I've discovered that <dfn>Kaiowá</dfn> is one of the vary Tupi-Guarani peoples around Brazil. They have a beautiful perspective about cure, almost like a tight bond between space, time and soul plus the idea of territory, individuality and community. We could easily, for sure, take numerous profits from their knowledge. Sadly, we are still super eurocentric and too westernized to understand this.</p>
+                    <!-- the text above was a test for the element "dfn". Now i gonna test the "change" elements-->
+                    <p> Oh, I might say <ins>I didn't send it yet, since I've not done a coherent timeline and train of thought for the facts and women I referenced there </ins><del>(of course it is not because I suck at writing and I'm a bit dyslexic to really write something right at first)</del> Anyway, even though it might end up being an "eh", doing this really made me understand their battle and fierce and its importance. For them, it is not just about being women and indigineous: they carry an entire history, culture and people in their shoulders. <s>That's something any wersten white person could ever understand by herself/himself</s> That's something that everyone should praise and urge to chane, because above everything. it's still a very sad situation they're subjugated by a reflect of the structural inequality and discrimination settled in our coutry since its colonization.</p>
+                    <!-- the "ins cite" might be used to justify why the sentence had a change, and "ins cite plus datetime" must be used to inform when the change happened.-->
+                    <!-- the section below is about more types of lists-->
+            </article>
+        </div>
+    </section>
+    <div id = "amostra">
+        <section>
+            <article>
+                <div class="col-100">
+                <div class="slideshow-container">
+                        <a id="degenerateslikeu" href="#"><img src= "https://c.tenor.com/NDV3TtUlg7cAAAAC/fallout-new-vegas.gif" alt="legioncanser"></a>
+                        <img src="https://64.media.tumblr.com/284b3d54719d54c3c508d069aad04221/tumblr_npg2wbdwNm1ut6yv4o1_1280.png" alt="mrhouse">
+                        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.newgrounds.com%2Fart%2Fview%2Fchrisjeplace%2Fyes-man-fallout-new-vegas&psig=AOvVaw1u4kXWnSCH0rTaC0WahgtE&ust=1638876787299000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiMg_mJz_QCFQAAAAAdAAAAABAY"><img src="https://art.ngfiles.com/images/1020000/1020453_chrisjeplace_yes-man-fallout-new-vegas.png?f1568161660" alt="yesman"></a>
+                    </div>
+                    <br>
+                </div>
+                <script type="text/javascript">
+                    $(script).ready(function(){
+                        $('.slideshow-container').slick();
+                    });
+                </script>
+                </div>
+            </article>
+        </section>
+    </div>
+
+
+    <footer>
+        <div id="div6">
+            <div id="titlefoot"><h1> Tell me about yourself!</h1></div>
+            <!-- gonna start a form now! form action refers to who's going to receive these information-->
+            <div id="infos"><form action="page.html" method="post">
+                <label for="nameid">Your Name: </label>
+                <input id="nameid" type="text" name="Name" placeholder="Type your name here" required>
+                <br>
+                <label id="statesid">Your location:</label>
+                <select id="statesid" name="states" required>
+                    <option value ="NAUSA">North America (United States)</option>
+                    <option value="NA">North America</option>
+                    <option value="LABR">Latin America (Brazil)</option>
+                    <option value="LA">Latin America (Other)</option>
+                    <option value ="AS">Asia</option>
+                    <option value="EU">Europe</option>
+                    <option value="AF">Africa</option>
+                    <option value="OC">Oceania</option>
+                </select>
+                <br>
+                <label for="whyid">Why are you here lol: </label>
+                <input id="whyid" type="text" name="reason" placeholder="fr why are u here you shall NOT be HERE">
+                <br>
+                <label for="feedbackid">Rate your experience:</label>
+                <input id="feedbackid" type="number" name="number1" min="0" max="10" step="1" required>
+                <br>
+                <label for="dateid">Let's set a date idk for what</label>
+                <input id="dateid" name="date" type="date">
+                <br>
+                <label id="messageid"> Leave a message to me :)</label>
+                <br>
+                <textarea id="messageid" name="message" rows="5" cols="50"></textarea>
+                
+                <button class="buttonid" type="submit" value="Send">Send</button>
+            </form>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+</body>
+<script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+<script src="./script.js" type="text/javascript"></script>
+    
+</html>
